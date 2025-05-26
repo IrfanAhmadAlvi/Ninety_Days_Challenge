@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'day1.dart';
 import 'day2.dart';
+import 'day3.dart';
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
         title: 'Batch 10 Flutter',
-        home: day2()
+        home: day3()
     );
   }
 }

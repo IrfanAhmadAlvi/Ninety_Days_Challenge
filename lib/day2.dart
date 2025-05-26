@@ -45,7 +45,9 @@ class day2 extends StatelessWidget {
                     print('Button Presses');
                   }, child: Text("Elevated Button")),
             ),
-            OutlinedButton(onPressed: (){}, child: Text('Outline Button')),
+            OutlinedButton(onPressed: (){
+              print('outline button press');
+            }, child: Text('Outline Button')),
 
             GestureDetector(
               onLongPress: (){
